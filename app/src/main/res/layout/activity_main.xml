@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bil1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bilangan_pertama"/>
+
+    <EditText
+        android:id="@+id/edt_bil1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:lines="1"/>
+
+    <TextView
+        android:id="@+id/bil2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bilangan_kedua"/>
+
+    <EditText
+        android:id="@+id/edt_bil2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:lines="1"/>
+
+    <Button
+        android:id="@+id/tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tambah"/>
+
+    <Button
+        android:id="@+id/kurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kurang"/>
+
+    <Button
+        android:id="@+id/bagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bagi"/>
+
+    <Button
+        android:id="@+id/kali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kali"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hasil"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
